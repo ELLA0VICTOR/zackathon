@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/zackathon-logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Zackathon - Encrypted Hackathon Platform</title>
+    <meta name="title" content="Zackathon - Encrypted Hackathon Platform" />
+    <meta name="description" content="The first decentralized hackathon platform with fully encrypted submissions using Zama's FHEVM technology. Fair judging, zero compromise." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zackathon.xyz/" />
+    <meta property="og:title" content="Zackathon - Encrypted Hackathon Platform" />
+    <meta property="og:description" content="Create and participate in hackathons with fully encrypted submissions until judging begins." />
+    <meta property="og:image" content="/zackathon-og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://zackathon.xyz/" />
+    <meta property="twitter:title" content="Zackathon - Encrypted Hackathon Platform" />
+    <meta property="twitter:description" content="Create and participate in hackathons with fully encrypted submissions until judging begins." />
+    <meta property="twitter:image" content="/zackathon-og-image.png" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#8B5CF6" />
+    
+    <!-- CRITICAL: Load Zama FHEVM Relayer SDK from CDN -->
+    <!-- Version: 0.3.0-5 for FHEVM v0.9 compatibility -->
+    <!-- This MUST load before React app initializes -->
+    <script 
+      src="https://cdn.zama.org/relayer-sdk-js/0.3.0-5/relayer-sdk-js.umd.cjs" 
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <!-- React Root -->
+    <div id="root"></div>
+    
+    <!-- Vite Entry Point -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
