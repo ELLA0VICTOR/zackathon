@@ -1,8 +1,8 @@
 {
-  "contractAddress": "0xE0EC3dA6f187FE58eea25E7bB1a059fa395A0046",
+  "contractAddress": "0xbfCa038Ec25e890Dd6f31f20ED58dabf5425C90b",
   "network": "sepolia",
   "chainId": 11155111,
-  "deployedAt": "2025-12-11T20:37:01.741Z",
+  "deployedAt": "2025-12-12T10:20:16.201Z",
   "deployer": "0x3dECa38860de5dBa2eC1292f0286495fCbEF09e5",
   "fhevm": {
     "aclContractAddress": "0xf0Ffdc93b7E186bC2f8CB3dAA75D86d1930A433D",

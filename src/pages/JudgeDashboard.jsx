@@ -8,6 +8,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@
 import { JudgeScoreDialog } from '@/components/hackathon/JudgeScoreDialog';
 import { PageLoading } from '@/components/common/LoadingSpinner';
 import { useHackathons } from '@/hooks/useHackathons';
+import { useSubmissions } from '@/hooks/useSubmissions';
 import { useWalletContext } from '@/context/WalletContext';
 import {
   Gavel,
@@ -321,7 +322,7 @@ function HackathonJudgeCard({ hackathon, onScoreSuccess }) {
   const [submissions, setSubmissions] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const { useSubmissions } = require('@/hooks/useSubmissions');
+  // ✅ FIXED: Use ES6 import instead of require()
   const submissionsHook = useSubmissions(hackathon.id);
 
   useEffect(() => {
